@@ -1,2 +1,4 @@
-2213111392
-Nutthinun Panawong
+StudentId: 2213111392
+Fullname:Nutthinun Panawong
+AKA:
+Class Detail:Define Method
