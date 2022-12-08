@@ -1,5 +1,5 @@
-package week5;
-import java.text.*;
+package Lap5;
+
 import java.util.Scanner;
 
 public class Lap504 {
@@ -12,7 +12,14 @@ public class Lap504 {
 		System.out.print("Please enter your name, separated by a space."
 				+ "\n:");
 		String fullName = scan.nextLine();
-		System.out.println(abbreviatName(fullName)+(fullName.substring(0,fullName.length())));
+		int space = fullName.indexOf(' ');
+		String name = fullName.substring(0,space);
+
+		
+		System.out.println(abbreviatName(fullName)+name.substring(0,1).toUpperCase()+name.substring(1));
+		
+
+		 
 	}
 	
 	public static String abbreviatName(String fullName) {
